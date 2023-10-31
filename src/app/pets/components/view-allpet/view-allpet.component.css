@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mDiv {
+    padding: 15px;
+    height: 100vh;
+    background-color: #f2f4f7;
+    margin-left: 200px;
+    margin-top: -500px;
+}
+
+.hedAPt {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 2px solid rgb(205, 205, 205);
+    justify-content: space-between;
+   
+}
+
+.alPtTxt {
+    font-size: 25px;
+    color: black;
+}
+
+.lftFunFS {
+    display: flex;
+    align-items: center;
+}
+
+.bacSmAll{
+    padding: 0px 10px;
+    height: 35px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 7px;
+    background-color: white;
+}
+.srchPt {
+    outline: none;
+}
+
+.fltrPts {
+    margin: 0px 15px;
+}
+.hedSubDv {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    border-bottom: 2px solid  rgb(205, 205, 205);
+}
+/* components */
+
+.allPetsLst {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+
+.itmPtOn {
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+}
+.itmPtOn  img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.ptInf {
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+.ptNma {
+    font-size: 20px;
+    color: black;
+}
+.gendAg , .gendAg ,.ptOwnN  {
+    font-size: 14px;
+    color: rgb(184, 184, 184);
+}
+.ptOwnN {
+    margin-top: 10px;
+}

@@ -1,0 +1,123 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.allAppItms {
+    display: flex;
+}
+.box {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 0 5px 4px #efefef;
+    margin: 15px;
+}
+.bxTp {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+ /* entered classed new  */
+.rNewAppBtn {
+    border-bottom: 1.7px solid rgb(145, 145, 145);
+    padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.rNewAppBtn p {
+    font-size: 25px;
+}
+.funAllAp {
+    display: flex;
+    align-items: center;
+}
+.bgBoxCom {
+    margin: 0px 10px;
+}
+
+.newApp {
+    height: 35px;
+    padding: 0px 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: orangered;
+    cursor: pointer;
+
+}
+.newApp:hover{
+      background-color: rgb(255, 120, 71);
+
+}
+
+.bgOptSel {
+    border: 1px solid rgb(202, 202, 202);
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0px 10px;
+    outline: none;
+}
+/* end */
+.imgApp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:  1px solid rgb(232, 232, 232);
+}
+.appDet {
+    margin-left: 15px;
+}
+.Name {
+    font-size: 20px;
+}
+.desApp {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.timFun {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.timeApp {
+    font-size: 25px;
+}
+.dateApp {
+    font-size: 17px;
+    color: rgb(47, 47, 47);
+}
+hr{
+    margin-top: 10px;
+    color: gray;
+
+}
+.detFee {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.detFee button {
+    width: 100%;
+    color: gray;
+    text-align: center;
+    height: 40px;
+    background-color: #00000000;
+    outline: none;
+    border: none;
+}
+.detFee button:hover {
+    background-color: #efefef;
+}
+.funcMCV {
+    width: 20px;
+    margin: auto;
+}

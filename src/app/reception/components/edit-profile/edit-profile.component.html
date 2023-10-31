@@ -1,0 +1,63 @@
+<!-- Button trigger modal -->
+<button   class="float-right" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left:auto;margin-right:auto;display:block;margin-top:-500px;margin-bottom:0%">
+    Edit Profile
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog" >
+      <div class="modal-content" style="height: 484px; width: 300px;">
+        <div class="modal-body" style="padding : 6%;">
+          <p style="color:rgb(6, 6, 6);"><b>Edit Profile</b></p>
+          <p style="color: gray;font-size: 12px; margin-top: -14px;">Update account details</p>
+          <div class="popimg">
+            <img src="assets/patient1.jpg" alt="" style="border-radius: 50px; height: 75px; width: 75px;" >
+            <button type="button" class="btn btn-link"><span><img src="assets\camera_qvxu1s37etm1_512.png" alt="" style="height: 24px; width: 24px; margin-top: 44px;
+              margin-left: -43px;" ></span></button>
+            <div class="marGine" >
+              <p style="color:black;font-size: 13px; " ><b>Name</b></p>
+              <div style="margin-top:-15px; border-color: aliceblue;"> <i id="name" >
+                <input class="name" type="text"  placeholder="Write your name" >
+                 <hr ><!-----------margin-top:-10px-->
+              </i></div>
+            </div>
+          </div>
+          <div>
+            <p style="color: black;font-size: 13px; margin-top: 44px;"><b>Title</b> </p>  <!----margin-top: 20px;-->
+            <div style=" margin-top: -15px; font-size: 13px;"><a>  <input class="radio" type="radio" value="Mr" id-="Mr" name="gender">Mr</a>&nbsp;&nbsp;
+              <a>  <input class="radio" type="radio" value="Mrs" id-="Mrs" name="gender"> Mrs</a>&nbsp;&nbsp;
+              <a>  <input class="radio" type="radio" value="Ms" id-="Ms" name="gender"> Ms</a></div>
+           
+          </div>
+          <br>
+          <div  class="details">
+            <div>
+            <p style="color: black;font-size: 13px; "><b>Mobile Number</b></p>
+            <div style="margin-top: -13px;"> 
+              <select class="select" name="countryNo" id="countryNo" >
+              <option value="+91">+91</option>
+              <option value="+41">+41</option>
+              <option value="+51">+51</option>
+              <option value="+84">+84</option>
+              <option value="+76">+76</option>
+            </select>
+            <input class="mobno" type="text" id-="mobileNo" name="mobileNo" maxlength="10" placeholder="Mob. No." >
+            <i class="line"><hr class="hr1">&nbsp;&nbsp;<hr class="hr2"></i></div>
+           
+          </div>
+          <div>
+            <p  style="color: black;font-size: 13px; "><b>Location</b></p>
+            <input class="text-Box" placeholder="" style="margin-top: -8px;" >
+          </div><br>
+          <div class="footer"  > 
+            <button type="button" class="btn btn-secondary2" data-bs-dismiss="modal" style=" background-color:white;font-size: 13px; border-color:black;--bs-btn-padding-x : 40px;">Cancel</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary1" style=" background-color:rgb(242, 11, 11);font-size: 13px;--bs-btn-padding-x : 40px; color: azure;">Confirm</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  

@@ -1,0 +1,109 @@
+
+<div class="addpet" >
+    <div id="content" style="margin-top:-30rem; width: 100rem;;margin-left: 200px;">
+      
+        <div class="card w-75">
+          <div class="card-body">
+            <b>Pet Details</b>
+            <button type="button" class="btn btn-primary"  id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              + New Pet
+            </button><p>Manage your pets here</p><br>
+        
+            <div id="border"></div><br>
+            
+            <div class="card w-50">
+                            <div class="card-body">
+                <div class="pet">
+                <div id="pet1">
+                <img src="/assets/image5.jpg" alt="" id="dogo" style="width:70px;">
+               
+              </div>
+              
+              <div id="pet2">
+               <span><b>Doggo</b><br> 2.2 years</span>
+              </div>
+              
+            </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+        
+        <div  class="modal " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div style="width: 350px;height: 500px;" class="modal-dialog" role="document">
+            <div class="modal-content">
+              
+              <div class="modal-body">
+                <div style="font-size:10px; font-weight:bold;">Edit Profile</div>
+              <div style="font-size:10px;color: gray;">Upadte pet details</div>
+              <div><br>
+              <div id="flex" style="display:flex">
+                <div id="img">
+              <img style="border-radius: 50%;width: 70px" src="../../../assets/Lulu.jfif" alt="" id="dogo">
+              <span style="border:2px solid orangered; border-radius:50%; background-color:orangered; position:absolute; width:20px; height:20px; top:115px;margin-left:-15px;"><i class="fa-sharp fa-solid fa-camera" id="icon" style="color: white; position: absolute; top:1px;width: 10px;" ></i></span>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div>
+              <span id="name" style="font-size:12px; color:gray;">Name</span><br>
+              <input type="text" id="txt" style="font-size:10px; border-top: none; border-left: none; border-right: none; outline: none; border-bottom: 1px solid gray;" placeholder="Lulu">
+            </div>
+          </div>
+            <div id="na">
+            </div>
+           
+        </div><br>
+              <div>
+              <div  style="font-size:10px; color:gray">Species</div>
+              <input type="radio" name="gender"><span  style="font-size:10px;">&nbsp;Dog</span>&nbsp;&nbsp;
+              <input type="radio" name="gender"><span  style="font-size:10px">&nbsp;Cat</span>&nbsp;&nbsp;
+              <input type="radio" name="gender"><span  style="font-size:10px">&nbsp;Reptile</span>&nbsp;&nbsp;
+              <input type="radio" name="gender"><span  style="font-size:10px">&nbsp;Other</span>
+            </div><br>
+            <div>
+                <div  style="font-size:10px; color:gray">Gender</div>
+                <input type="radio" name="gender"><span  style="font-size:10px">&nbsp;Male</span>&nbsp;&nbsp;
+                <input type="radio" name="gender"><span  style="font-size:10px">&nbsp;Female</span>&nbsp;&nbsp;
+                <input type="checkbox" name="gender"><span  style="font-size:10px; accent-color: orangered;">&nbsp;Neutered</span>&nbsp;&nbsp;
+                
+              </div><br>
+              <div id="age" style="display:flex">
+                <div>
+                <span  style="font-size:10px; color:gray">Date of birth</span><br>
+                <input style="font-size:10px; border-top: none; border-left: none; border-right: none; outline: none; border-bottom: 1px solid gray;" type="date" id="date" >
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="ag">
+                    <span id="ap"  style="font-size:10px; color:gray">Age</span><br>
+                    <input style="font-size:10px; border-top: none; border-left: none; border-right: none; outline: none; border-bottom: 1px solid gray;" type="number" id="number" >
+                </div>
+              </div><br>
+              <div>
+                <div>
+                <span  style="font-size:10px; color:gray">Blood Group</span>
+            </div>
+            <div>
+                <input style="font-size:10px; border-top: none; border-left: none; border-right: none; outline: none; border-bottom: 1px solid gray;width: 50%;" type="text"  id="bl">
+            </div>
+              </div>
+              <div>
+                <div>
+                <span  style="font-size:10px; color:gray">Allergy</span>
+            </div>
+            <div>
+                <input style="font-size:10px; border-top: none; border-left: none; border-right: none; outline: none; border-bottom: 1px solid gray;width: 100%;" type="text" id="al"  >
+            </div>
+              </div><br>
+              
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="width:45%; border-radius: 5px;border: 1px solid gray;background-color:white;color: black; font-size: 10px; height: 30px;">Cancel</button>&nbsp;&nbsp;
+                  <button type="button" class="btn btn-primary" style="width:45%; border-radius:5px;border: 1px; background-color: orangered;color: white; font-size: 10px;  height: 30px;">Confirm</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+        
+        
+    

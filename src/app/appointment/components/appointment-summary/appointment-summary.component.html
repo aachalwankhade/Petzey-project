@@ -1,0 +1,50 @@
+<div class="aaEsenCountRB  pst">
+    <div class="itemOneAAE">
+      <div>
+        <div class="bxRou">
+          <img src="assets/charge.png" alt="">
+        </div>
+        <p>Total</p>
+      </div>
+      <p class="count"><b>{{total | json}}</b>
+      </p>
+    </div>
+
+   
+    <div class="itemOneAAE">
+      <div>
+        <div class="bxRou">
+          <img src="/assets/tick.png" alt="">
+        </div>
+        <p>Confirm</p>
+      </div>
+      <p class="count"><b>{{confirm| json}}</b>
+      </p>
+    </div>
+
+    <div class="itemOneAAE">
+      <div>
+        <div class="bxRou">
+          <img src="/assets/checkb.png" alt="">
+        </div>
+       
+        <p>Closed</p>
+      </div>
+      <p class="count"><b>{{close| json}}</b>
+      </p>
+    </div>
+
+
+    <div class="itemOneAAE">
+      <div>
+        <div class="bxRou">
+          <img src="/assets/clear.png" alt="">
+        </div>
+        <p>Cancelled</p>
+      </div>
+      <p class="count"><b>{{cancel | json}}</b>
+      </p>
+    </div>
+
+  </div>
+  <app-viewall-appointment></app-viewall-appointment>

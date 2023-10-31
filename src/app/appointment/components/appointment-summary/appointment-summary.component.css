@@ -1,0 +1,67 @@
+.aaEsenCountRB {
+    display: flex;
+    margin-top: -90vh;
+    margin-left: 200px;
+}
+
+.itemOneAAE {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+.itemOneAAE div {
+    display: flex;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.bxRou img {
+   height:45px;
+   width: 45px;
+   padding: 5px;
+    border-radius: 50%;
+    background: rgb(253 204 186);
+    border: 7px solid rgb(255 237 230);
+}
+.itemOneAAE div p {
+    color: black;
+    font-size: 17px;
+    align-self: center;
+    margin-left: 15px;
+}
+.itemOneAAE p {
+    font-size: 30px;
+}
+
+.rNewAppBtn {
+    justify-content: space-between;
+    display: flex;
+    margin: 15px;
+    border-bottom: 2px solid rgb(186, 186, 186);
+    padding-bottom: 15px;
+}
+.txtAppoin {
+    font-size: 25px;
+    color: black;
+}
+.bgBoxCom {
+    padding: 7px;
+    align-self: center;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    background: white;
+    margin: 0px 10px;
+    outline: none;
+}
+.newApp {
+    padding: 7px;
+    color: white;
+    align-self: center;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    background: orangered;
+    margin: 0px 10px;
+    cursor: pointer;
+}
